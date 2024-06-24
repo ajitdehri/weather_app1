@@ -1,6 +1,5 @@
 
 
-
 const search_input = document.getElementById("search_input");
 const search_btn = document.getElementById("search_btn1");
 const location_button = document.getElementById("location-btn");
@@ -9,7 +8,7 @@ const weather_cards_top_value = document.querySelector(".weather-card");
 
 
 
-const API_KEY = "e660f03e59f93af65512a1fb37c8cdd0"; //API KEY
+const API_KEY = "e660f03e59f93af65512a1fb37c8cdd0"; //api key
 
 
 const ceateWeatherCard = (cityName, weatherItem, index) => {
